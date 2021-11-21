@@ -1,6 +1,11 @@
-function vowels(str) {
+function vowels() {
+    let str = prompt('Введите любое слово или предложение');
     const array = ['а', 'я', 'о', 'ё', 'э', 'е', 'ы', 'и', 'у', 'ю'];
     let count = 0;
+
+    while (!isNaN(str)) {
+         str = prompt('Введите любое слово или предложение');
+    }
 
     for (let i = 0; i < str.length; i++) {
         for (let j = 0; j < array.length; j++) {
@@ -11,6 +16,7 @@ function vowels(str) {
         }
     }
     return count;
+
 };
 
-console.log(vowels(str));
+console.log(vowels());
