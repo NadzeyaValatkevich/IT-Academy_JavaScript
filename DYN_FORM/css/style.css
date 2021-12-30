@@ -1,0 +1,13 @@
+.btn {
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 5%;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+};
+
+.textA {
+    width: 400px;
+     height: 50px;
+}
